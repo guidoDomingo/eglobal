@@ -1,0 +1,125 @@
+.monto{
+    background-color: #E3E1E1;
+}
+.chart{
+    width: 100%;
+    height: 57%;
+    margin-bottom: 0;
+}
+.chartpie{
+    width: 50%;
+    margin-top: 0;
+}
+
+.owner{
+    display: none;
+}
+
+.oculto{
+    display: none;
+}
+.ver{
+    display: block;
+}
+
+/*
+Full screen Modal 
+*/
+.fullscreen-modal .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .fullscreen-modal .modal-dialog {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .fullscreen-modal .modal-dialog {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .fullscreen-modal .modal-dialog {
+       width: 1170px;
+    }
+  }
+
+  .modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.red{
+    background-color: #DCDCDC !important;
+}
+.red_total{
+    background-color: #abafb1ad !important;
+}
+
+#graph_spinn .spinners{
+    font-size: 90px !important;
+    background-color: rgba(109, 106, 106, 0.4);
+}
+
+
+.disabledbutton {
+    pointer-events: none !important;
+    opacity: 0.4 !important;
+}
+
+/*FACTURA*/
+.factura-qr {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(66, 144, 155);
+}
+.factura-qr h2 {
+  color: white;
+}
+
+.factura-cliente-monto{
+  background-color: rgb(7, 57, 63);
+  border-radius: 12px;
+}
+
+.factura-qr .monto-title {
+  color: red;
+  font-size: 30px;
+}
+
+.factura-qr .card-venta{
+  margin-bottom: 15px;
+}
+
+.factura-qr p {
+  color: white;
+}
+
+.factura-qr .boton-qr {
+  background-color: rgb(17, 76, 83);
+  color: white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
+}
+
+.factura-qr .boton-qr:hover {
+  background-color: rgb(55, 228, 107);
+  cursor: pointer;
+}
+
+.sin-factura {
+  display: flex;
+  background-color: rgb(17, 76, 83);
+  color: white;
+  width: 100%;
+  justify-content: center;
+}
+
+
+
+

@@ -1,0 +1,45 @@
+.info-bot{
+    font-size: 15px;
+}
+
+.card-bot{
+    background-color:#222D32;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acciones-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-bot{
+    margin-left: 5px;
+}
+.card-youtube{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+}
+
+.card-body-youtube{
+    margin-left: 10px;
+}
+
+.spin {
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
